@@ -105,7 +105,9 @@ img {
   opacity: 0;
   transition: 250ms var(--tran);
 }
-
+.current::after{
+  opacity: 1
+}
 .feader-nav-link:hover,
 .feader-nav-link:focus {
   color: var(--first-btn-color);
